@@ -1,0 +1,90 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #AFAFAF;  
+}
+
+.paddingconf {
+    height: 89px;   
+    flex-shrink: 0;
+    background: #012340;
+}
+
+.fontex {
+    height: 51px;
+    flex-shrink: 0;
+    color: #04D939;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fontix {
+    color: #04D939;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.circ {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    height: 150.497px;
+    flex-shrink: 0;
+    margin-top: 90px;
+}
+
+
+.rd {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    color: #012340;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.token {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    height: 46px;
+    padding: 10px;
+}
+
+.salvar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    border-radius: 40px;
+    background: #03A63C;
+    justify-content: center;
+    margin-top: 20px;
+    height: 46px;
+    color: #ECECEC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: auto;
+    cursor: pointer;
+}
